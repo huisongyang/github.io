@@ -10,6 +10,7 @@
 		}
 	</style>
 	<link href="css/default.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="llk/css/index.css"/>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/garden.js"></script>
     <script type="text/javascript" src="js/functions.js"></script>
@@ -64,7 +65,51 @@
 			Inspired by <a href="http://www.openrise.com/lab/FlowerPower/">FlowerPower</a> project.<br />
 			Copyright © 2011 <a href='http://hackerzhou.me'>hackerzhou.me</a> 2009-2011
 		</div>
+		
+		<div style="text-align:center;">
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			2018-5-2号更新。。。<br/>
+			媳妇无聊嘛，来。。玩玩连连看。。。
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+		</div>
+		
+		<center>
+			<div id="whole">
+				<div id="gamePanel" tabindex="0">
+					<div id="pieces">
+					</div>
+				</div>
+				<div id="gameLogo">
+				</div>
+				<div id="scorePanel">
+					<span>分&nbsp;&nbsp;数</span>
+				</div>
+				<div id="score">
+					<span>0</span>
+				</div>
+				<div id="timePanel">
+					<span>时&nbsp;&nbsp;间</span>
+				</div>
+				<div id="time">
+					<span>0</span>
+				</div>
+				<div id="button">
+					<input id="start" type="button" onclick="Start();" value="开始"></input>
+					<input id="reset" type="button" onclick="Reset();"value="重置"></input>
+				</div>				
+			</div>
+		</center>
 	</div>
+	<script type="text/javascript" src="llk/js/map.js"></script>
+	<script type="text/javascript" src="llk/js/piece.js"></script>
+	<script type="text/javascript" src="llk/js/game.js"></script>
 	<script type="text/javascript">
 		var offsetX = $("#loveHeart").width() / 2;
 		var offsetY = $("#loveHeart").height() / 2 - 55;
